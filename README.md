@@ -37,8 +37,8 @@ Cuando ocurra un error el aplicativo mostrará esta pantalla y se tendrá un bot
 
 ## Screenshots
 
-https://raw.githubusercontent.com/lecasme/FlutterArchitecture/master/assets/images/splash.png?raw=true
-https://raw.githubusercontent.com/lecasme/FlutterArchitecture/master/assets/images/home.png?raw=true
-https://raw.githubusercontent.com/lecasme/FlutterArchitecture/master/assets/images/error.png?raw=true
+![Splash Screen](https://raw.githubusercontent.com/lecasme/FlutterArchitecture/master/assets/images/splash.png?raw=true)
+![Home Screen](https://raw.githubusercontent.com/lecasme/FlutterArchitecture/master/assets/images/home.png?raw=true)
+![Error Screen](https://raw.githubusercontent.com/lecasme/FlutterArchitecture/master/assets/images/error.png?raw=true)
 
 
