@@ -34,3 +34,11 @@ Su funcion es recuperar de la data local la lista que se va a pintar y mostrarla
 - Pantalla de Error
 
 Cuando ocurra un error el aplicativo mostrará esta pantalla y se tendrá un boton de reiniciado completo del aplicativo.
+
+## Screenshots
+
+https://raw.githubusercontent.com/lecasme/FlutterArchitecture/master/assets/images/splash.png?raw=true
+https://raw.githubusercontent.com/lecasme/FlutterArchitecture/master/assets/images/home.png?raw=true
+https://raw.githubusercontent.com/lecasme/FlutterArchitecture/master/assets/images/error.png?raw=true
+
+

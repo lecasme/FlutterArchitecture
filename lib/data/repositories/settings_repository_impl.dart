@@ -39,7 +39,7 @@ class SettingsRepositoryImpl implements SettingsRepository {
   @override
   Future<Either<Failure, List<PokemonEntity>>> getLocalPokemons() async {
     try {
-      //throw Exception("Example error"); Uncomment this to check ErrorPage
+      //throw Exception("Example error"); //Uncomment this to check ErrorPage
       return Right(await local.getPokemons());
     } on Exception {
     return Left(Failure(CODE_ERROR, ERROR_MESSAGE));
