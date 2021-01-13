@@ -1,0 +1,84 @@
+name: flutter_architecture
+description: A Flutter Clean Architecture!
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # service Locator
+  get_it: ^5.0.3
+  # Block for state management
+  flutter_bloc: ^6.1.1
+  # Value equality
+  equatable: ^1.2.5
+  # Functional programing thingies
+  dartz: ^0.9.2
+  #Remote API
+  json_annotation: ^3.1.1
+  retrofit: ^1.3.4+1
+  dio: ^3.0.10
+  pretty_dio_logger: ^1.1.1
+  # Local Cache
+  shared_preferences: 0.5.12+4
+  # Swap the connectivity package for this
+  data_connection_checker: ^0.3.4
+  # For OS-Specific directory paths
+  path_provider: ^1.6.24
+  # Awesome Icons
+  font_awesome_flutter: ^8.11.0
+  # Keyboard
+  flutter_keyboard_visibility: ^4.0.0
+  # Form Validations
+  form_field_validator: ^1.0.1
+  # Loader
+  flutter_easyloading: ^2.2.2
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^1.10.11
+  json_serializable: ^3.5.1
+  retrofit_generator: any
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/logo.png
+    - assets/images/cloud_right.png
+
+  fonts:
+    - family: Noto
+      fonts:
+        - asset: assets/fonts/NotoSans-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/NotoSans-Bold.ttf
+          weight: 700
